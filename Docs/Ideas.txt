@@ -1,0 +1,11 @@
+Potentiometer to vary brightness
+Potentiometer to vary flashing speed
+Vary flashing duty cycle?
+Water proof case
+Battery life indicator (probably requires too much power... 
+	Although if using a microcontroller, could PWM a code to the LED to indicate)
+Sounds?
+Different battery options?
+rechargeable?
+
+Make the housing fit on a keychain!
