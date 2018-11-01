@@ -3,7 +3,7 @@ A small project for BME 590: Medical Instrumentation Design
 Greg Goldman, ghg3@duke.edu
 
 Project details are copied from https://github.com/mlp6/Fundamentals-BME-Design/blob/master/PrototypingSkills/VariableLightF18.md
-
+There are a few weird commits around the end of October as I am using a loaner computer until I get mine repaired.
 
 # Design Skills Project (Variable Light Intensity)
 
