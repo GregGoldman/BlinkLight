@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=BT1-1
+Removed Pin From Net: NetName=VBAT Pin=BT1-2
+Added Pin To Net: NetName=VBAT Pin=BT1-1
+Added Pin To Net: NetName=GND Pin=BT1-2
+Added Member To Class: ClassName=ATTinySchematic Member=Component *1 LinReg
+Added Member To Class: ClassName=ATTinySchematic Member=Component P1 Header 3X2

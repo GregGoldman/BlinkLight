@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=D?-2
+Removed Pin From Net: NetName=VCC Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-3
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Pin To Net: NetName=NetD?_2 Pin=D?-2
+Added Pin To Net: NetName=NetD?_2 Pin=Q1-1
+Added Net: Name=NetD?_2
+Added Member To Class: ClassName=ATTinySchematic Member=Component C? Cap Semi
+Added Room: Name=ATTinySchematic
