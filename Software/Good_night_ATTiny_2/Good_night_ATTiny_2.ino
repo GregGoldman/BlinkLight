@@ -38,6 +38,9 @@ void setup() {
   // globally stage change interrupts to be enabled (still requires sei())
   GIMSK = 0b00100000;
 
+  ADCSRA &= ~_BV(ADEN);                   // ADC off
+
+
   //enable interrupts after setup
   sei();
 }
@@ -47,8 +50,7 @@ void loop() {
   switch (State) {
     case 0:
       analogWrite(LEDPIN, 0);
-      // ADC was previously turned off here, but PWR_DOWN does that automatically. 
-      // we don't use it, so we could probably have it off all the time for efficiency
+
       set_sleep_mode(SLEEP_MODE_PWR_DOWN);
       sleep_enable();
       sleep_cpu();
