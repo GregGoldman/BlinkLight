@@ -1,6 +1,6 @@
 /*
  * FinalFlashlightCode.ino
- * Greg Goldman
+ * Greg Goldman and Jason Fischell
  * BME 590: Medical Instrumentation Design
  * Fall, 2018
  * 
@@ -47,7 +47,7 @@ volatile int pressCount = 0;
 */
 
 ///online sources suggest to declare variables which go in the ISR as volatile
-unsigned long bounceTime = 200000; // how long to wait to avoid bounce: 200 ms
+unsigned long bounceTime = 50000; // how long to wait to avoid bounce: 200 ms
 volatile unsigned long now = 0; //current time
 unsigned long lastFlashTime = 0; // previous time
 volatile unsigned long lastPressedTime = 0;
