@@ -1,0 +1,26 @@
+Power Calculations:
+
+Consumption while asleep: 34.66 uA at nominal battery voltage of 6 V. 
+4.76 mA at low
+7.4 mA at medium
+12.7 mA at high
+4 - 13 mA at flashing
+
+Battery Options:
+----------------
+--> CR2032 has dimensions of 20mm diameter by 3.2mm height, 235 mAh capacity
+    I can stack two of these inside the holder to avoid sagging below 3.3V
+--> CR2477 has dimensions of 24.5mm diameter by  7.7mm height, 1Ah capacity, 
+    but sagging over time will decrease below 3.3V + dropout of the regulator, 
+    so I can't use this battery
+--> CR2430 has dimensions of 24.5mm diameter by 3.0mm height, 320 mAh capacity
+    I can stack two of these as well, and they fill the whole space better than
+    the CR2302
+
+Theoretical battery life when using two CR2430 batteries in series:
+Asleep: 9232.5 hours = 384.7 days
+Low:    67.2   hours = 2.8   days
+Medium 	43.2   hours = 1.8   days
+High	25.2   hours = 1.05  days
+Flash	37.6   hours = 1.57  days
+(assuming average of 4 and 13 mA)

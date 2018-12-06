@@ -3,7 +3,29 @@ A small project for BME 590: Medical Instrumentation Design
 Greg Goldman, ghg3@duke.edu
 
 Project details are copied from https://github.com/mlp6/Fundamentals-BME-Design/blob/master/PrototypingSkills/VariableLightF18.md
-There are a few weird commits around the end of October as I am using a loaner computer until I get mine repaired.
+There are a few weird commits around the end of October as I was using a loaner computer until I get mine repaired.
+
+
+$Final Specs:
+-------------------------------------------------------------
+Outer Dimensions: 1.510 x 1.870 x 0.850 inches
+
+
+Weight:
+
+
+Cost: $5.81 (including batteries, not including board and 3D-printed case)
+
+Battery Life (when using two CR2430 batteries in series):
+Asleep: 9232.5 hours = 384.7 days
+Low:    67.2   hours = 2.8   days
+Medium 	43.2   hours = 1.8   days
+High	25.2   hours = 1.05  days
+Flash	37.6   hours = 1.57  days
+(assuming average of 4 and 13 mA)
+
+
+
 
 # Design Skills Project (Variable Light Intensity)
 

@@ -1,0 +1,10 @@
+Final Device Cost (Estimated):
+ATTiny85:               $1.23
+Linear Regulator 3.3 V: $0.28 
+White LED:              $ 0.20
+Push-Button:            $0.50
+2x 0603 resistors:      $0.05 each
+2x 0603 capacitors:     $0.05 each
+2x CR2430 batteries:    $1.70 each
+
+Total cost: not including board and 3D-printed case: $5.81
